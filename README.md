@@ -268,6 +268,10 @@ Repita o teste com `interval:10000` e `interval:30000` para verificar os outros 
 | :---------------------------------------: |
 | [Clique aqui para acessar!](https://wokwi.com/projects/478515319809742849) |
 
+| Link do Vídeo no YouTube |
+| :---------------------------------------: |
+| [Clique aqui para acessar!](https://youtu.be/BYuYa6r6kFc) |
+
 
 ## 13. Autores
 
