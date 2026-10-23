@@ -266,4 +266,8 @@ Repita o teste com `interval:10000` e `interval:30000` para verificar os outros 
 
 Projeto acadêmico desenvolvido para a atividade de IoT relacionada ao monitoramento de uma adega da Vinheria Agnello.
 
-Adicione aqui os nomes dos integrantes do grupo, as respectivas funções e as informações da disciplina, caso sejam exigidas na entrega.
+| Nomes         | RM             |
+| :-------------| :------------: |
+| Felipe Rabelo |  570340
+| Gustavo Ferreira Tavares | 569928 |
+| Ricardo Salmerón | 572916 |
