@@ -262,11 +262,11 @@ Repita o teste com `interval:10000` e `interval:30000` para verificar os outros 
 - O intervalo de leitura pode ser alterado apenas para os valores permitidos pelo código.
 - O projeto foi desenvolvido e testado em ambiente simulado no Wokwi; o funcionamento em hardware físico pode exigir ajustes nas ligações, na rede e na configuração do broker.
 
-## 12. Links
+### 12. Links
 
 | Link Wokwi |
 | :---------------------------------------: |
-| [Clique aqui para acessar!]([https://wokwi.com/projects/478515319809742849]) |
+| [Clique aqui para acessar!](https://wokwi.com/projects/478515319809742849) |
 
 
 ## 13. Autores
