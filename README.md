@@ -266,10 +266,10 @@ Repita o teste com `interval:10000` e `interval:30000` para verificar os outros 
 
 | Link Wokwi |
 | :---------------------------------------: |
-| [Clique aqui para acessar!]([https://www.tinkercad.com/things/lkgLl19LRHl-temperaturaumidade-vinheria-agnello?sharecode=YlTjqZkmewffe9tO3R5gVDQQ_gfvheSdDE0nYS-RPK4](https://wokwi.com/projects/478515319809742849)) |
+| [Clique aqui para acessar!]([https://wokwi.com/projects/478515319809742849]) |
 
 
-## 12. Autores
+## 13. Autores
 
 Projeto acadêmico desenvolvido para a atividade de IoT relacionada ao monitoramento de uma adega da Vinheria Agnello.
 
