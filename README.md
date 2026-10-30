@@ -262,8 +262,23 @@ Repita o teste com `interval:10000` e `interval:30000` para verificar os outros 
 - O intervalo de leitura pode ser alterado apenas para os valores permitidos pelo código.
 - O projeto foi desenvolvido e testado em ambiente simulado no Wokwi; o funcionamento em hardware físico pode exigir ajustes nas ligações, na rede e na configuração do broker.
 
-## 12. Autores
+### 12. Links
+
+| Link Wokwi |
+| :---------------------------------------: |
+| [Clique aqui para acessar!](https://wokwi.com/projects/478515319809742849) |
+
+| Link do Vídeo no YouTube |
+| :---------------------------------------: |
+| [Clique aqui para acessar!](https://youtu.be/BYuYa6r6kFc) |
+
+
+## 13. Autores
 
 Projeto acadêmico desenvolvido para a atividade de IoT relacionada ao monitoramento de uma adega da Vinheria Agnello.
 
-Adicione aqui os nomes dos integrantes do grupo, as respectivas funções e as informações da disciplina, caso sejam exigidas na entrega.
+| Nomes         | RM             |
+| :-------------| :------------: |
+| Felipe Rabelo |  570340
+| Gustavo Ferreira Tavares | 569928 |
+| Ricardo Salmerón | 572916 |

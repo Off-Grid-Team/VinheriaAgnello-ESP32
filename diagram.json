@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "author": "Felipe Rabelo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-mini", "id": "bb1", "top": 27.4, "left": -31.2, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 86.4, "left": -167.96, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -76.5,
+      "left": -5.4,
+      "attrs": { "temperature": "15" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 42.35,
+      "left": 19.2,
+      "attrs": { "value": "4700" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -77.1,
+      "left": 32.9,
+      "rotate": 90,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "bb1:4t.b", "esp:3V3", "red", [ "v0", "h-182.4", "v67.2" ] ],
+    [ "bb1:5t.c", "esp:4", "green", [ "v0", "h-67.2", "v172.8" ] ],
+    [ "bb1:4t.e", "bb1:11t.e", "red", [ "v9.6", "h67.2" ] ],
+    [ "esp:GND.2", "bb1:7t.c", "black", [ "v0", "h28.8", "v-48", "h67.2", "v-9.6" ] ],
+    [ "bb1:7t.d", "bb1:16t.d", "black", [ "v9.6", "h86.4" ] ],
+    [ "bb1:14t.c", "esp:35", "green", [ "v38.4", "h-278.4", "v67.2" ] ],
+    [ "dht1:VCC", "bb1:4t.a", "", [ "$bb" ] ],
+    [ "dht1:SDA", "bb1:5t.a", "", [ "$bb" ] ],
+    [ "dht1:NC", "bb1:6t.a", "", [ "$bb" ] ],
+    [ "dht1:GND", "bb1:7t.a", "", [ "$bb" ] ],
+    [ "r1:1", "bb1:5t.b", "", [ "$bb" ] ],
+    [ "r1:2", "bb1:11t.b", "", [ "$bb" ] ],
+    [ "ldr1:VCC", "bb1:17t.a", "", [ "$bb" ] ],
+    [ "ldr1:GND", "bb1:16t.a", "", [ "$bb" ] ],
+    [ "ldr1:DO", "bb1:15t.a", "", [ "$bb" ] ],
+    [ "ldr1:AO", "bb1:14t.a", "", [ "$bb" ] ],
+    [ "bb1:17t.c", "bb1:11t.d", "red", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
